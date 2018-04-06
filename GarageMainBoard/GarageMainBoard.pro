@@ -1,4 +1,4 @@
-update=Sat 06 Jan 2018 02:32:06 PM EST
+update=Thursday, 05 April 2018 'pmt' 22:27:59
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,6 +31,8 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.127
 BoardOutlineThickness=0.127
 ModuleOutlineThickness=0.127
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -65,5 +67,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/kevin/Documents/KiCad/libraries/KevinsLib
-[general]
-version=1
+LibName31=/Users/kevin/Documents/KiCad/libraries/KevinsLib
