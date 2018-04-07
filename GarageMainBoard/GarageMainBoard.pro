@@ -1,4 +1,4 @@
-update=Thursday, 05 April 2018 'pmt' 22:27:59
+update=Fri 06 Apr 2018 08:17:05 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,9 +33,19 @@ BoardOutlineThickness=0.127
 ModuleOutlineThickness=0.127
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../libraries
+LibDir=../../../libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -66,5 +76,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/kevin/Documents/KiCad/libraries/KevinsLib
-LibName31=/Users/kevin/Documents/KiCad/libraries/KevinsLib
+LibName30=../../../libraries/KevinsLib
