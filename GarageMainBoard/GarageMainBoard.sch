@@ -206,7 +206,7 @@ U 1 1 5A51338C
 P 2250 3850
 F 0 "J3" H 2300 4550 50  0000 C CNN
 F 1 "Conn_02x13_Odd_Even" H 2300 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x13_Pitch2.54mm" H 2250 3850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x13_Pitch2.54mm" H 2250 3850 50  0001 C CNN
 F 3 "" H 2250 3850 50  0001 C CNN
 	1    2250 3850
 	1    0    0    -1  
@@ -354,12 +354,12 @@ $EndComp
 $Comp
 L +3.3V #PWR010
 U 1 1 5A5EE438
-P 7950 4800
-F 0 "#PWR010" H 7950 4650 50  0001 C CNN
-F 1 "+3.3V" H 7950 4940 50  0000 C CNN
-F 2 "" H 7950 4800 50  0001 C CNN
-F 3 "" H 7950 4800 50  0001 C CNN
-	1    7950 4800
+P 8200 4800
+F 0 "#PWR010" H 8200 4650 50  0001 C CNN
+F 1 "+3.3V" H 8200 4940 50  0000 C CNN
+F 2 "" H 8200 4800 50  0001 C CNN
+F 3 "" H 8200 4800 50  0001 C CNN
+	1    8200 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -390,15 +390,13 @@ CLOSE_HALL
 Text Label 10200 6400 1    60   ~ 0
 OPEN_HALL
 Wire Wire Line
-	8200 5200 8200 4700
-Wire Wire Line
 	8500 5200 8500 4700
-Text Label 8200 5200 1    60   ~ 0
+Text Label 7950 5200 1    60   ~ 0
 CLOSE_HALL
 Text Label 8500 5200 1    60   ~ 0
 OPEN_HALL
 Wire Wire Line
-	7950 4800 7950 5200
+	8200 4800 8200 5200
 $Comp
 L C C5
 U 1 1 5A5EE824
@@ -536,7 +534,7 @@ Wire Wire Line
 	3050 2950 3450 2950
 Wire Wire Line
 	2550 3650 3200 3650
-Text Label 3050 1650 0    60   ~ 0
+Text Label 3050 1450 0    60   ~ 0
 G_DOOR
 Text Label 2600 3650 0    60   ~ 0
 G_DOOR
@@ -544,7 +542,7 @@ Wire Wire Line
 	2550 3750 3200 3750
 Text Label 2650 3750 0    60   ~ 0
 LIGHT
-Text Label 3050 1450 0    60   ~ 0
+Text Label 3050 1650 0    60   ~ 0
 LIGHT
 $Comp
 L R R3
@@ -1112,15 +1110,15 @@ Wire Wire Line
 	4850 1950 5400 1950
 Wire Wire Line
 	4850 2050 5400 2050
-Text Label 3050 1550 0    60   ~ 0
+Text Label 3050 1750 0    60   ~ 0
 LIGHT_X
 Text Label 3050 2950 0    60   ~ 0
 LIGHT_X
-Text Label 3000 1750 0    60   ~ 0
+Text Label 3000 1550 0    60   ~ 0
 G_DOOR_X
 Text Label 4800 2950 0    60   ~ 0
 G_DOOR_X
-Text Label 3000 1950 0    60   ~ 0
+Text Label 3050 1950 0    60   ~ 0
 PIEZO_X
 Text Label 4350 5500 0    60   ~ 0
 PIEZO_X
@@ -1374,4 +1372,6 @@ Wire Wire Line
 	3000 950  3000 900 
 Wire Wire Line
 	3000 1350 3000 1250
+Wire Wire Line
+	7950 5200 7950 4700
 $EndSCHEMATC
